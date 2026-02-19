@@ -1,0 +1,11 @@
+/
+├── server.ts          # Express Backend & API
+├── package.json       # Dependencies & Scripts
+├── vite.config.ts     # Build Configuration
+├── index.html         # Entry HTML
+├── src/
+│   ├── App.tsx        # Main Frontend Logic
+│   ├── main.tsx       # React Entry Point
+│   ├── index.css      # Tailwind Styles
+│   └── types.ts       # TypeScript Definitions
+└── uploads/           # Directory for deposit screenshots

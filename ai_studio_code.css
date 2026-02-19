@@ -1,0 +1,12 @@
+@import "tailwindcss";
+
+@theme {
+  --color-luxury-red: #E60000;
+  --color-luxury-dark: #0A0A0A;
+  --color-luxury-card: #141414;
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "Outfit", sans-serif;
+}
+
+.glow-red { box-shadow: 0 0 15px rgba(230, 0, 0, 0.4); }
+.glass-card { @apply bg-luxury-card/80 backdrop-blur-md border border-white/5 rounded-2xl; }
